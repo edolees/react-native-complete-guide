@@ -16,7 +16,7 @@ const fetchFonts = () => {
 };
 
 export default function App() {
-	const [userNumber, setUserNumber] = useState();
+	const [userNumber, setUserNumber] = useState(0);
 	const [numberRounds, setNumberRounds] = useState(0);
 	const [dataLoaded, setDataLoaded] = useState(false);
 
