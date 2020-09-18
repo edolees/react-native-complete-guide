@@ -9,10 +9,10 @@ import {
 	Alert,
 } from 'react-native';
 
-import Card from '../../components/Card/Card';
-import Colors from '../../constants/colors';
-import Input from '../../components/Input/Input';
-import NumberContainer from '../../components/NumberContainer/NumberContainer';
+import Card from '../components/Card/Card';
+import Colors from '../constants/colors';
+import Input from '../components/Input/Input';
+import NumberContainer from '../components/NumberContainer/NumberContainer';
 
 const StartGameScreen = props => {
 	const [enteredValue, setEnteredValue] = useState('');
